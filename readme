@@ -1,0 +1,34 @@
+木桶镇2
+RPG游戏《木桶镇》的资料片，由Python语言开发，最初的设计目标是在PSP游戏机运行。
+但后来同事坐地铁的时候把PSP弄丢了，唯一的测试环境没了，所以只能改为在Windows运行，
+再后来可以同时在Windows和Ubuntu桌面运行。
+
+[主页]
+https://sourceforge.net/projects/casktown2/
+http://www.hoker.org/MUTONG/index.html
+
+[源代码]
+svn co https://casktown2.svn.sourceforge.net/svnroot/casktown2 casktown2 
+cvs -d:pserver:anonymous@casktown2.cvs.sourceforge.net:/cvsroot/casktown2 login
+cvs -z3 -d:pserver:anonymous@casktown2.cvs.sourceforge.net:/cvsroot/casktown2 co -P modulename
+
+[环境]
+在Windows下，需要首先安装pygame，不过该下载站已经被墙
+在ubuntu下，需要首先执行sudo apt-get install pygame
+
+[运行]
+程序的入口是script.py，这是psp游戏机的要求。
+分辨率为(480,272)，这也是psp游戏机的要求。
+执行方法为
+python script.py
+
+[测试]
+每个类文件都可以被单独执行，单独执行的时候，会启动其中的testcase方法，主要用于独立功能的测试。
+
+[开发团队]
+    * [ 剧本 ] Xiaoai
+    * [ 代码 ] ffb, hs3180
+    * [ 美工 ] lake，慧慧，TOM
+    * [ 音乐 ] ABO
+    * [ 测试 ] 大葱
+    * [ 网站 ] TOM

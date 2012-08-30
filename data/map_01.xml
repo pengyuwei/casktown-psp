@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>	
+<map name='木桶镇' bgmusic="01.mid">
+	<sym code=" " img="brick0.png" through="1" />
+	<sym code="1" img="brick1.png" through="0" />
+	<sym code="H" img="brick2.png" through="1" />
+	<sym code="3" img="brick3.png" through="0" />
+	<sym code="B" img="brick0.png" through="1" />
+	<sym code="G" img="brick0.png" through="1" />
+	<event sym="B" flag="4" next="map_03" px="2" py="1" />
+	<event sym="G" flag="4" next="map_02" px="1" py="2" />
+	<event sym="H" flag="4" next="map_04" px="6" py="4" />
+	<layer>
+		<line>111111111111111</line>
+		<line>1 1      1    1</line>
+		<line>1  1     111  1</line>
+		<line>1             G</line>
+		<line>1             1</line>
+		<line>1        111  1</line>
+		<line>1        1H1  1</line>
+		<line>1            11</line>
+		<line>1  131313131  1</line>
+		<line>11B111111111111</line>
+	</layer>
+</map>
