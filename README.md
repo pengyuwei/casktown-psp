@@ -1,7 +1,10 @@
 # casktown2
 
+![casktown2](http://res.easynight.cn/toyshop/ffb/images/mutong2_1.jpg)
 
-This is a Chinese ARPG(Action Role Playing Game) game, In casks on the legend of the town,use the Python and VC, if you're familiar with the Python language,welcome to join our development team. Where are we go? The world is in their own keyboard!
+This is a simple RPG written for the PSP and can also run on Windows or Linux desktops.
+
+In 2007, my colleague Hui got a PSP game and heard that it could run Python. We decided to do something fun, so we wrote the game, but before we finished it, we lost the PSP.
 
 这是一个为PSP写的简单RPG游戏，也可以在Windows或者Linux桌面环境运行。
 
@@ -18,6 +21,5 @@ Linux/Mac：
 
 ```
 pip install pygame
-# script.py为PSP定义的入口文件
 python2.7 script.py
 ```
